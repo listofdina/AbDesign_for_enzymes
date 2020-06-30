@@ -109,7 +109,7 @@ ROSETTA_SCRIPTS @backbone_tails/flags -out:prefix 4pud_ -parser:script_vars sour
 “from_res” is used both in N-and in C-terminus cases to indicate the single defined segmentation point. 
 
 As before, the torsion angles of the fragment will be generated at db/blade1_4pud.db 
-The last three digits every line in the database indicate the segmentation points chosen. In case of an N-terminus tail, change the third digit from the end, to the desired segmentation residue number. (Due to a bug, the default output is 1). I.e, “... 188 130.796 175.255 SER 1 0 0 4pud”, should become “...188 130.796 175.255 SER 44 0 0 4pud”. There is no need for such an adjustment in the case of a C-terminus tail.  
+The last three digits of every line in the database indicate the segmentation points chosen. In case of an N-terminus tail, change the third digit from the end, to the desired segmentation residue number. (Due to a bug, the default output is 1). I.e, “... 188 130.796 175.255 SER 1 0 0 4pud”, should become “...188 130.796 175.255 SER 44 0 0 4pud”. There is no need for such an adjustment in the case of a C-terminus tail.  
 
 
 ## 6 Assembly of backbones
